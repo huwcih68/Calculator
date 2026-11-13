@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Máy tính</string>
+    <string name="expression_hint">Nhập biểu thức</string>
+    <string name="error_invalid">Biểu thức không hợp lệ</string>
+    <string name="error_divide_zero">Không thể chia cho 0</string>
+    <string name="cd_clear">Xóa tất cả</string>
+    <string name="cd_delete">Xóa ký tự cuối</string>
+    <string name="cd_divide">Chia</string>
+    <string name="cd_multiply">Nhân</string>
+    <string name="cd_subtract">Trừ</string>
+    <string name="cd_add">Cộng</string>
+    <string name="cd_point">Dấu thập phân</string>
+    <string name="cd_equals">Tính kết quả</string>
+</resources>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="expression_hint">Enter an expression</string>
+    <string name="error_invalid">Invalid expression</string>
+    <string name="error_divide_zero">Cannot divide by zero</string>
+
+    <string name="cd_clear">Clear all</string>
+    <string name="cd_delete">Delete last character</string>
+    <string name="cd_divide">Divide</string>
+    <string name="cd_multiply">Multiply</string>
+    <string name="cd_subtract">Subtract</string>
+    <string name="cd_add">Add</string>
+    <string name="cd_point">Decimal point</string>
+    <string name="cd_equals">Calculate result</string>
+
+    <string name="key_0" translatable="false">0</string>
+    <string name="key_1" translatable="false">1</string>
+    <string name="key_2" translatable="false">2</string>
+    <string name="key_3" translatable="false">3</string>
+    <string name="key_4" translatable="false">4</string>
+    <string name="key_5" translatable="false">5</string>
+    <string name="key_6" translatable="false">6</string>
+    <string name="key_7" translatable="false">7</string>
+    <string name="key_8" translatable="false">8</string>
+    <string name="key_9" translatable="false">9</string>
+    <string name="key_clear" translatable="false">C</string>
+    <string name="key_delete" translatable="false">⌫</string>
+    <string name="key_divide" translatable="false">÷</string>
+    <string name="key_multiply" translatable="false">×</string>
+    <string name="key_subtract" translatable="false">−</string>
+    <string name="key_add" translatable="false">+</string>
+    <string name="key_point" translatable="false">.</string>
+    <string name="key_equals" translatable="false">=</string>
+</resources>
