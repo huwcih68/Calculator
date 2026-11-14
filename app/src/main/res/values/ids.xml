@@ -1,0 +1,5 @@
+<resources>
+    <item name="history_list" type="id" />
+    <item name="history_pinned_date" type="id" />
+    <item name="history_footer" type="id" />
+</resources>
