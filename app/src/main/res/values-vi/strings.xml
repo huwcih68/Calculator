@@ -11,4 +11,8 @@
     <string name="cd_add">Cộng</string>
     <string name="cd_point">Dấu thập phân</string>
     <string name="cd_equals">Tính kết quả</string>
+    <string name="menu_history">Lịch sử</string>
+    <string name="history_click_test">Đã bấm Lịch sử</string>
+    <string name="history_empty">Chưa có phép tính nào</string>
+    <string name="clear_history">Xóa lịch sử</string>
 </resources>

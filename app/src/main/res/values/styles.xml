@@ -13,6 +13,7 @@
         <item name="android:textSize">@dimen/calc_button_text_size</item>
         <item name="backgroundTint">?attr/colorSurfaceVariant</item>
         <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+        <item name="cornerRadius">1000dp</item>
     </style>
 
     <style name="Widget.Calculator.Button.Function" parent="Widget.Calculator.Button">

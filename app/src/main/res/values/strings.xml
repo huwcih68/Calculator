@@ -12,6 +12,10 @@
     <string name="cd_add">Add</string>
     <string name="cd_point">Decimal point</string>
     <string name="cd_equals">Calculate result</string>
+    <string name="menu_history">History</string>
+    <string name="history_click_test">You tapped History</string>
+    <string name="history_empty">No calculations yet</string>
+    <string name="clear_history">Clear history</string>
 
     <string name="key_0" translatable="false">0</string>
     <string name="key_1" translatable="false">1</string>

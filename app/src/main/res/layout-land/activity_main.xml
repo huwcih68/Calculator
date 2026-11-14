@@ -11,12 +11,29 @@
 
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/toolbar"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="?attr/actionBarSize"
+        android:layout_marginEnd="@dimen/display_margin"
+        app:contentInsetStart="0dp"
+        app:contentInsetEnd="0dp"
+        app:titleMargin="0dp"
         app:title="@string/app_name"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@id/displayGuideline" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/buttonHistory"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="@dimen/display_margin"
+        android:padding="12dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/menu_history"
+        app:srcCompat="@drawable/ic_history"
+        app:tint="?attr/colorOnSurface"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/toolbar"
+        app:layout_constraintBottom_toBottomOf="@id/toolbar" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/displayGuideline"

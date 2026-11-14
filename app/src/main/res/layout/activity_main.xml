@@ -11,12 +11,30 @@
 
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/toolbar"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="?attr/actionBarSize"
-        app:title="@string/app_name"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        app:contentInsetEnd="0dp"
+        app:contentInsetStart="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:title="@string/app_name"
+        app:titleMargin="0dp" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/buttonHistory"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="@dimen/display_margin"
+        android:padding="12dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/menu_history"
+        app:srcCompat="@drawable/ic_history"
+        app:tint="?attr/colorOnSurface"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintTop_toTopOf="@id/toolbar"
+        app:layout_constraintBottom_toBottomOf="@id/toolbar" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/displayGuideline"
@@ -30,30 +48,31 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginHorizontal="@dimen/display_margin"
+        android:ellipsize="start"
         android:gravity="end|bottom"
         android:hint="@string/expression_hint"
+        android:maxLines="2"
         android:textColor="?attr/colorOnSurface"
         android:textSize="@dimen/expression_text_size"
-        android:maxLines="2"
-        android:ellipsize="start"
-        app:layout_constraintTop_toBottomOf="@id/toolbar"
         app:layout_constraintBottom_toTopOf="@id/resultText"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/resultText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/display_margin"
+        android:ellipsize="start"
         android:gravity="end"
+        android:maxLines="2"
         android:textColor="?attr/colorPrimary"
         android:textSize="@dimen/result_text_size"
-        android:maxLines="2"
-        android:ellipsize="start"
         app:layout_constraintBottom_toTopOf="@id/displayGuideline"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <GridLayout
         android:id="@+id/keypad"
@@ -64,7 +83,9 @@
         app:layout_constraintTop_toTopOf="@id/displayGuideline"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintDimensionRatio="4:5"
+        app:layout_constraintVertical_bias="1">
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/buttonClear"
