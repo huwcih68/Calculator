@@ -20,6 +20,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:title="@string/app_name"
+        app:titleTextAppearance="@style/TextAppearance.Calculator.Toolbar"
         app:titleMargin="0dp" />
 
     <androidx.appcompat.widget.AppCompatImageButton
@@ -28,10 +29,10 @@
         android:layout_height="48dp"
         android:layout_marginStart="@dimen/display_margin"
         android:padding="12dp"
-        android:background="?attr/selectableItemBackgroundBorderless"
+        android:background="@android:color/transparent"
         android:contentDescription="@string/menu_history"
         app:srcCompat="@drawable/ic_history"
-        app:tint="?attr/colorOnSurface"
+        app:tint="#AD8EF8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/toolbar"
         app:layout_constraintBottom_toBottomOf="@id/toolbar" />
@@ -45,6 +46,7 @@
 
     <TextView
         android:id="@+id/expressionText"
+        android:fontFamily="@font/times_new_roman"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginHorizontal="@dimen/display_margin"
@@ -62,6 +64,7 @@
 
     <TextView
         android:id="@+id/resultText"
+        android:fontFamily="@font/times_new_roman"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/display_margin"
@@ -100,6 +103,8 @@
             style="@style/Widget.Calculator.Button.Function"
             android:layout_row="0" android:layout_column="2"
             android:text="@string/key_delete"
+            android:gravity="center"
+            android:includeFontPadding="false"
             android:contentDescription="@string/cd_delete" />
 
         <com.google.android.material.button.MaterialButton

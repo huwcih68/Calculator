@@ -3,6 +3,8 @@
     <string name="expression_hint">Enter an expression</string>
     <string name="error_invalid">Invalid expression</string>
     <string name="error_divide_zero">Cannot divide by zero</string>
+    <string name="copy_result">Copy result</string>
+    <string name="result_copied">Result copied</string>
 
     <string name="cd_clear">Clear all</string>
     <string name="cd_delete">Delete last character</string>
@@ -16,6 +18,20 @@
     <string name="history_click_test">You tapped History</string>
     <string name="history_empty">No calculations yet</string>
     <string name="clear_history">Clear history</string>
+    <string name="history_done">Done</string>
+    <string name="history_select">Select</string>
+    <string name="history_delete_all">Delete all</string>
+    <string name="history_delete_selected">Delete selected</string>
+    <string name="history_today">Today</string>
+    <string name="history_yesterday">Yesterday</string>
+    <string name="history_loading">Loading history…</string>
+    <string name="history_load_error">Could not load history</string>
+    <string name="history_load_retry">Could not load history. Close and reopen to try again.</string>
+    <string name="history_delete_error">Could not delete history</string>
+    <string name="history_save_error">Could not save history</string>
+    <string name="history_entry_description">%1$s equals %2$s. Tap to edit this expression.</string>
+    <string name="history_entry_selected_description">%1$s equals %2$s, selected</string>
+    <string name="history_entry_unselected_description">%1$s equals %2$s, not selected</string>
 
     <string name="key_0" translatable="false">0</string>
     <string name="key_1" translatable="false">1</string>

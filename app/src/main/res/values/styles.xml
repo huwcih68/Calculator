@@ -1,5 +1,7 @@
 <resources>
     <style name="Widget.Calculator.Button" parent="Widget.Material3.Button">
+        <item name="android:fontFamily">@font/times_new_roman</item>
+        <item name="fontFamily">@font/times_new_roman</item>
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">0dp</item>
         <item name="android:layout_columnWeight">1</item>
@@ -17,12 +19,16 @@
     </style>
 
     <style name="Widget.Calculator.Button.Function" parent="Widget.Calculator.Button">
-        <item name="backgroundTint">?attr/colorSecondaryContainer</item>
-        <item name="android:textColor">?attr/colorOnSecondaryContainer</item>
+        <item name="backgroundTint">@color/calc_function_background</item>
+        <item name="android:textColor">#333333</item>
     </style>
 
     <style name="Widget.Calculator.Button.Operator" parent="Widget.Calculator.Button">
-        <item name="backgroundTint">?attr/colorPrimaryContainer</item>
+        <item name="backgroundTint">#AD8EF8</item>
         <item name="android:textColor">?attr/colorOnPrimaryContainer</item>
+    </style>
+    <style name="TextAppearance.Calculator.Toolbar" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:fontFamily">@font/times_new_roman</item>
+        <item name="fontFamily">@font/times_new_roman</item>
     </style>
 </resources>

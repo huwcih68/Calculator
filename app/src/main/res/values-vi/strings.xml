@@ -3,6 +3,8 @@
     <string name="expression_hint">Nhập biểu thức</string>
     <string name="error_invalid">Biểu thức không hợp lệ</string>
     <string name="error_divide_zero">Không thể chia cho 0</string>
+    <string name="copy_result">Sao chép kết quả</string>
+    <string name="result_copied">Đã sao chép kết quả</string>
     <string name="cd_clear">Xóa tất cả</string>
     <string name="cd_delete">Xóa ký tự cuối</string>
     <string name="cd_divide">Chia</string>
@@ -15,4 +17,18 @@
     <string name="history_click_test">Đã bấm Lịch sử</string>
     <string name="history_empty">Chưa có phép tính nào</string>
     <string name="clear_history">Xóa lịch sử</string>
+    <string name="history_done">Xong</string>
+    <string name="history_select">Chọn</string>
+    <string name="history_delete_all">Xóa tất cả</string>
+    <string name="history_delete_selected">Xóa đã chọn</string>
+    <string name="history_today">Hôm nay</string>
+    <string name="history_yesterday">Hôm qua</string>
+    <string name="history_loading">Đang tải lịch sử…</string>
+    <string name="history_load_error">Không đọc được lịch sử</string>
+    <string name="history_load_retry">Không đọc được lịch sử. Đóng rồi mở lại để thử lại.</string>
+    <string name="history_delete_error">Không xóa được lịch sử</string>
+    <string name="history_save_error">Không lưu được lịch sử</string>
+    <string name="history_entry_description">%1$s bằng %2$s. Chạm để sửa biểu thức này.</string>
+    <string name="history_entry_selected_description">%1$s bằng %2$s, đã chọn</string>
+    <string name="history_entry_unselected_description">%1$s bằng %2$s, chưa chọn</string>
 </resources>
